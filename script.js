@@ -22,9 +22,11 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
 
-
-  slides[slideIndex].style.visibility = "hidden";
+  slides[slideIndex-1].style.animation = "fadein 1s";
   slides[slideIndex-1].style.display = "flex";
-  slides[slideIndex].style.overflowX = "hidden";
+
+
+
+
 
 }
