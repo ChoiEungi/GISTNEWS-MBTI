@@ -1,18 +1,33 @@
 var slideIndex = 0;
-var mbtiData = {"editor": 0, "reporter": 0, "designer": 0};
+
+var reporter = 0;
+var designer = 0 ;
+var editor = 0 ;
 
 
 function pushSlides(data) {
   var main = document.getElementsByClassName("main-section-inner");
   if (main.length>0){
     main[0].remove()
-    console.log(main)
-  }
-  if (data){
-    console.log(data.id)
   }
 
-  console.log(slideIndex);
+  if (data){
+    switch (data.id){
+      case "1":
+      mbtiData["reporter"] += 1
+      break;
+
+      case "2":
+      mbtiData["designer"] += 1
+      break;
+
+      case "3":
+      mbtiData["editor"] += 1
+      break;
+
+    }
+  }
+
   slideIndex += 1;
   showSlides(slideIndex);
 
@@ -31,6 +46,12 @@ function showSlides(n) {
 
 
 
+}
 
+function showResult(){
+
+for (let [key, value] of mbtiData ) {
+  console.log(key + ' = ' + value);
+}
 
 }

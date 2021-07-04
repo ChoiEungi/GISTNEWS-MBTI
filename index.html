@@ -9,13 +9,14 @@
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 	</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 </head>
 
 <body>
 	<header class="page-header">
-    <div class="question-gage-container">
-      <span class="question-gage-bar">
+		<div class="question-gage-container">
+			<span class="question-gage-bar">
       </span>
     </div>
   </header>
@@ -46,7 +47,7 @@
                       </div>
                       <h5>보물로 알아보는 신문사 성향 테스트</h5>
                       <div class="opac btn-container">
-                          <button class="btn-start", data-type = "reporter", onclick="pushSlides()">
+                          <button class="btn-start", onclick="pushSlides(this)">
                               시작하기
                           </button>
                       </div>
@@ -82,16 +83,16 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             조용한 음악
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             시끄러운 음악
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" ,  id = 3 , onclick="pushSlides(this)">
                             부드러운 음악
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             차라리 부른다
                         </button>
                       </div>
@@ -106,13 +107,13 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             산책한다
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             잠을 잔다
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             친구와 상담한다
                         </button>
                       </div>
@@ -127,16 +128,16 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             구글링해서 사용법을 터득한다
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             잘 다룰 수 있는 사람에게 물어봐서 <br>사용법을 터득한다
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             혼자서 이것저것 눌러봐서 스스로 터득한다
                         </button>
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             응애~ 난 애기 기자
                         </button>
                   </div>
@@ -151,13 +152,13 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             혼자 간다
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             친구와 함께 간다
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             뭐 죽기야 하겠어,,, 참는다
                         </button>
                       </div>
@@ -172,16 +173,16 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             10일 23시 59분에 업로드한다. 세이프!
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             하루 전에 여유있게 올린다
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             헉,  11일이다. 그만 늦어버렸다 
                         </button>
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             나는 과제 그런거 모른다. 돔황챠~
                         </button>
                       </div>
@@ -196,13 +197,13 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             산
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             바다
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             문사실ㅋㅋ
                         </button>               
                       </div>
@@ -217,13 +218,13 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             신문사 부원들께 사과하고 <br> 회의 내용을 인계받는다
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             아몰랑 <br> 몰라몰라 돔황챠~
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             기획회의 쯤이야~ <br> 빠지라고 있는거 아임걍?ㄹㅇㅋㅋ
                         </button>                     
                       </div>
@@ -238,16 +239,16 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             담당 교수 
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             룸메이트
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             부모님
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             미래의 내 자식
                         </button>                       
                       </div>
@@ -262,13 +263,13 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             후련하다
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             잘못된 곳은 없을까? <br> 긴장된다
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             모르겠고 그냥 피곤하다
                         </button>                     
                       </div>
@@ -283,13 +284,13 @@
                           </div>
                       </div>
                       <div class="answer-container">
-                        <button class="fill answer" ,data-type="reporter" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 1 , onclick="pushSlides(this)">
                             소오~주우
                         </button>
-                        <button class="fill answer" ,data-type="designer" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 2 , onclick="pushSlides(this)">
                             매액~주우
                         </button>
-                        <button class="fill answer" ,data-type="editor" , onclick="pushSlides()">
+                        <button class="fill answer" , id = 3 , onclick="pushSlides(this)">
                             나는 술찌야!^^
                         </button>
                       </div>                    
@@ -339,7 +340,7 @@
                       <br>
                       <br>
                     </div>
-                    <button class="btn-start">
+                    <button class="btn-start", onclick="showResult()">
                         결과 보기
                     </button>
                   </div>
