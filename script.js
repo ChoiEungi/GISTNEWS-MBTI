@@ -1,8 +1,6 @@
 var slideIndex = 0;
 
-var reporter = 0;
-var designer = 0 ;
-var editor = 0 ;
+mbtiData = [0, 0, 0];
 
 
 function pushSlides(data) {
@@ -14,15 +12,15 @@ function pushSlides(data) {
   if (data){
     switch (data.id){
       case "1":
-      mbtiData["reporter"] += 1
+      mbtiData[0] += 1;
       break;
 
       case "2":
-      mbtiData["designer"] += 1
+      mbtiData[1] += 1;
       break;
 
       case "3":
-      mbtiData["editor"] += 1
+      mbtiData[2] += 1;
       break;
 
     }
@@ -48,10 +46,38 @@ function showSlides(n) {
 
 }
 
-function showResult(){
+function indexOfMax(arr) {
+    if (arr.length === 0) {
+        return -1;
+    }
 
-for (let [key, value] of mbtiData ) {
-  console.log(key + ' = ' + value);
+    var max = arr[0];
+    var maxIndex = 0;
+
+    for (var i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            maxIndex = i;
+            max = arr[i];
+        }
+    }
+
+    return maxIndex;
 }
+
+function showResult(){
+  var ret = indexOfMax(mbtiData);
+  // location.href = "reporter.html";
+  switch(ret){
+    case 0:
+    location.href="reporter/reporter.html" ;
+    break
+    case 1:
+    location.href="designer/designer.html" ;
+    break
+    case 2:
+    location.href="editor/editor.html" ;
+    break
+
+  }
 
 }

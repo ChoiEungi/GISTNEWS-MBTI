@@ -9,7 +9,24 @@ body{
 
 a {
     color: #444444;
-    text-align: center
+    text-align: center;
+  
+
+}
+
+.btn-last{
+    width: 300px;
+    color: white;
+    border: 1px solid #ceaa8a;
+    background-color: #ceaa8a;
+    border-radius: 10px;
+    line-height: 70px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+    animation: fadein 5s forwards;
 }
 
 
@@ -45,7 +62,7 @@ a {
 .mbti{
   position: absolute;
   top: 3%;
-  left: 35%;
+  left: 40%;
 
 }
 
@@ -92,7 +109,7 @@ a {
     margin: 0 auto;
     min-height: 600px;
     /*    overflow: hidden; */
-    height: 90vh;
+    height: 100vh;
 
 }
 
@@ -100,6 +117,7 @@ a {
     display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
 
 }
 
@@ -131,7 +149,7 @@ a {
     font-family: 'Single Day', cursive;
 }
 
-button {
+a, button {
     cursor: pointer;
     background-color: transparent;
 
@@ -287,6 +305,8 @@ h5{
 .opac:nth-child(6) { animation-delay: 1s; }
 .opac:nth-child(7) { animation-delay: 1.5s; }
 .opac:nth-child(8) { animation-delay: 2s; }
+.opac:nth-child(1) { animation-delay: 3s; }
+
 
 
 .ivisiable{
