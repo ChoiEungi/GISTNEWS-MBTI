@@ -2,12 +2,16 @@ var slideIndex = 0;
 var mbtiData = {"editor": 0, "reporter": 0, "designer": 0};
 
 
-function pushSlides() {
+function pushSlides(data) {
   var main = document.getElementsByClassName("main-section-inner");
   if (main.length>0){
     main[0].remove()
     console.log(main)
   }
+  if (data){
+    console.log(data.id)
+  }
+
   console.log(slideIndex);
   slideIndex += 1;
   showSlides(slideIndex);
@@ -17,7 +21,7 @@ function pushSlides() {
 function showSlides(n) {
   var i;
   var slides = document.querySelectorAll('.section-inner');
-  
+
   for (i=0; i<slides.length; i++){
     slides[i].style.display = "none";
   }
