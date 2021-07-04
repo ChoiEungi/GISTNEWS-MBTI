@@ -3,7 +3,7 @@ var mbtiData = {"editor": 0, "reporter": 0, "designer": 0};
 
 
 function pushSlides() {
-  var main = document.getElementsByClassName("step-main step-inner");
+  var main = document.getElementsByClassName("main-section-inner");
   if (main.length>0){
     main[0].remove()
     console.log(main)
@@ -16,12 +16,15 @@ function pushSlides() {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("section-inner");
+  var slides = document.querySelectorAll('.section-inner');
   
-  console.log(slides);
   for (i=0; i<slides.length; i++){
     slides[i].style.display = "none";
   }
+
+
+  slides[slideIndex].style.visibility = "hidden";
   slides[slideIndex-1].style.display = "flex";
+  slides[slideIndex].style.overflowX = "hidden";
 
 }
