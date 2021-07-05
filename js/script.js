@@ -69,13 +69,13 @@ function showResult(){
   // location.href = "reporter.html";
   switch(ret){
     case 0:
-    location.href="reporter/reporter.html" ;
+    location.href="https://www.gistnews-mbti.com/common/reporter.html" ;
     break
     case 1:
-    location.href="designer/designer.html" ;
+    location.href="https://www.gistnews-mbti.com/common/designer.html" ;
     break
     case 2:
-    location.href="editor/editor.html" ;
+    location.href="https://www.gistnews-mbti.com/common/editor.html" ;
     break
 
   }
