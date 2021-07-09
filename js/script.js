@@ -1,7 +1,7 @@
 var slideIndex = 0;
 
 mbtiData = [0, 0, 0];
-
+//hello
 
 function pushSlides(data) {
   var main = document.getElementsByClassName("main-section-inner");
