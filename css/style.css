@@ -287,7 +287,7 @@ h5{
 }
 
 @keyframes opacappear {
-    0% { transform: translate(0px, 1px); 
+    0% { transform: translate(0px, 10px); 
         opacity:0;}
 
     100% {transform: translate(0px, 0px); 
@@ -300,13 +300,11 @@ h5{
     animation-fill-mode: forwards;
     }
 
-
+.opac:nth-child(2) { animation-delay: 3s; }
 .opac:nth-child(5) { animation-delay: .5s; }
 .opac:nth-child(6) { animation-delay: 1s; }
 .opac:nth-child(7) { animation-delay: 1.5s; }
-.opac:nth-child(8) { animation-delay: 2s; }
-.opac:nth-child(1) { animation-delay: 3s; }
-
+.opac:nth-child(8) { animation-delay: 1.7s; }
 
 
 .ivisiable{
@@ -332,4 +330,3 @@ h5{
 
 }
 .rot {animation:rotateicon 1s infinite;}
-    
