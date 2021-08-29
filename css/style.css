@@ -5,7 +5,6 @@
 }
 body{
     background-color: #444444;
-<<<<<<< HEAD
     font-family: 'Gowun Dodum', sans-serif;
 
 }
@@ -13,14 +12,12 @@ span{
     font-family: 'Gowun Dodum', sans-serif;
 
 }
-=======
-}
 
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
 a {
     color: #444444;
     text-align: center;
-  
+    text-decoration: none;
 
 }
 
@@ -35,10 +32,7 @@ a {
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
     animation: fadein 5s forwards;
 }
 
@@ -55,10 +49,7 @@ a {
     line-height: 34px;
     color: white;
     padding: 20px 0;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
 }
 .pic{
     text-align: center;
@@ -85,13 +76,7 @@ a {
 #title-font{
   font-size: 18px;
   font-weight: 500;
-<<<<<<< HEAD
-=======
-  font-family: "Single Day", cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
   color: white;
-
-
 }
 
 
@@ -103,7 +88,7 @@ a {
     align-items: center;
     justify-content: center;
     /* border: 1px solid red; */
-    padding: 100px 20px 18px;
+    padding: 80px 20px 18px;
     box-sizing: border-box;
 
 }
