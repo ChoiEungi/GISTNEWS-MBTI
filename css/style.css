@@ -150,10 +150,7 @@ a {
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
 }
 
 a, button {
@@ -178,10 +175,7 @@ a, button {
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
 }
 .main-text{
     font-weight: 300;
@@ -191,20 +185,11 @@ a, button {
     padding-bottom: 10px;
     text-align: center;
     color: white;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
-
 }
 h5{
     margin-top: 0;
     padding-bottom: 30px;
     color: #7e7e7e;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
     text-align: center;
     font-weight: 200;
 }
@@ -213,20 +198,12 @@ h5{
     color: #a8a8a8;
     font-size: 15px;
     font-weight: 200;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
     padding-top: 30px;
 }
 .below-btn{
     font-size: 15px;
     font-weight: 200;
     color: #c1c1c1;
-<<<<<<< HEAD
-=======
-    font-family: 'Single Day', cursive;
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
 
 }
 .link-container{
@@ -309,11 +286,8 @@ h5{
 }
 
 @keyframes opacappear {
-<<<<<<< HEAD
     0% { transform: translate(0px, 1px); 
-=======
-    0% { transform: translate(0px, 10px); 
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
         opacity:0;}
 
     100% {transform: translate(0px, 0px); 
@@ -326,7 +300,6 @@ h5{
     animation-fill-mode: forwards;
     }
 
-<<<<<<< HEAD
 
 .opac:nth-child(5) { animation-delay: .5s; }
 .opac:nth-child(6) { animation-delay: 1s; }
@@ -334,13 +307,7 @@ h5{
 .opac:nth-child(8) { animation-delay: 2s; }
 .opac:nth-child(1) { animation-delay: 3s; }
 
-=======
-.opac:nth-child(2) { animation-delay: 3s; }
-.opac:nth-child(5) { animation-delay: .5s; }
-.opac:nth-child(6) { animation-delay: 1s; }
-.opac:nth-child(7) { animation-delay: 1.5s; }
-.opac:nth-child(8) { animation-delay: 1.7s; }
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
+
 
 
 .ivisiable{
@@ -366,7 +333,3 @@ h5{
 
 }
 .rot {animation:rotateicon 1s infinite;}
-<<<<<<< HEAD
-    
-=======
->>>>>>> 125fb59e3863d65a256860ad2e407503533d2345
