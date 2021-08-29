@@ -5,8 +5,13 @@
 }
 body{
     background-color: #444444;
-}
+    font-family: 'Gowun Dodum', sans-serif;
 
+}
+span{
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
 a {
     color: #444444;
     text-align: center;
@@ -25,7 +30,6 @@ a {
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-    font-family: 'Single Day', cursive;
     animation: fadein 5s forwards;
 }
 
@@ -42,7 +46,6 @@ a {
     line-height: 34px;
     color: white;
     padding: 20px 0;
-    font-family: 'Single Day', cursive;
 }
 .pic{
     text-align: center;
@@ -69,7 +72,6 @@ a {
 #title-font{
   font-size: 18px;
   font-weight: 500;
-  font-family: "Single Day", cursive;
   color: white;
 
 
@@ -146,7 +148,6 @@ a {
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-    font-family: 'Single Day', cursive;
 }
 
 a, button {
@@ -171,7 +172,6 @@ a, button {
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-    font-family: 'Single Day', cursive;
 }
 .main-text{
     font-weight: 300;
@@ -181,14 +181,12 @@ a, button {
     padding-bottom: 10px;
     text-align: center;
     color: white;
-    font-family: 'Single Day', cursive;
 
 }
 h5{
     margin-top: 0;
     padding-bottom: 30px;
     color: #7e7e7e;
-    font-family: 'Single Day', cursive;
     text-align: center;
     font-weight: 200;
 }
@@ -197,14 +195,12 @@ h5{
     color: #a8a8a8;
     font-size: 15px;
     font-weight: 200;
-    font-family: 'Single Day', cursive;
     padding-top: 30px;
 }
 .below-btn{
     font-size: 15px;
     font-weight: 200;
     color: #c1c1c1;
-    font-family: 'Single Day', cursive;
 
 }
 .link-container{
